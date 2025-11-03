@@ -72,6 +72,7 @@ const data = {
       title: "Category",
       url: "#",
       icon: Bot,
+      isActive: true,
       items: [
         {
           title: "Create Category",
@@ -89,6 +90,7 @@ const data = {
       title: "Sub Category",
       url: "#",
       icon: Bot,
+      isActive: true,
       items: [
         {
           title: "Create subCategory",
@@ -99,6 +101,60 @@ const data = {
           title: " All subCategory",
           icon: List,
           url: "subcategorylist",
+        },
+      ],
+    },
+    {
+      title: "Brand",
+      url: "#",
+      icon: Bot,
+      isActive: true,
+      items: [
+        {
+          title: "Create Brand",
+          icon: CloudUpload,
+          url: "createBrand",
+        },
+        {
+          title: " All Brand",
+          icon: List,
+          url: "brandlist",
+        },
+      ],
+    },
+    {
+      title: "Product",
+      url: "#",
+      icon: Bot,
+      isActive: true,
+      items: [
+        {
+          title: "Create Product",
+          icon: CloudUpload,
+          url: "createProduct",
+        },
+        {
+          title: " All Product",
+          icon: List,
+          url: "productlist",
+        },
+      ],
+    },
+    {
+      title: "Variant",
+      url: "#",
+      icon: Bot,
+      isActive: true,
+      items: [
+        {
+          title: "Create Variant",
+          icon: CloudUpload,
+          url: "createVariant",
+        },
+        {
+          title: " All Variant",
+          icon: List,
+          url: "variantlist",
         },
       ],
     },

@@ -85,27 +85,20 @@ const data = {
         },
       ],
     },
-
     {
-      title: "Settings",
+      title: "Sub Category",
       url: "#",
-      icon: Settings2,
+      icon: Bot,
       items: [
         {
-          title: "General",
-          url: "#",
+          title: "Create subCategory",
+          icon: CloudUpload,
+          url: "createSubcategory",
         },
         {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
+          title: " All subCategory",
+          icon: List,
+          url: "subcategorylist",
         },
       ],
     },

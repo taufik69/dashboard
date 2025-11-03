@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router";
 import { Virtuoso } from "react-virtuoso";
 
-export function CategoryList() {
+export function SubCategoryList() {
   const navigate = useNavigate();
 
   // ✅ Dummy Data (1000 categories)
@@ -16,7 +16,7 @@ export function CategoryList() {
 
   // ✅ Handlers
   const handleEdit = (item) => {
-    navigate(`/editcategory/${item._id}`);
+    navigate(`/editsubcategory/${item._id}`);
   };
 
   const handleDelete = (item) => {

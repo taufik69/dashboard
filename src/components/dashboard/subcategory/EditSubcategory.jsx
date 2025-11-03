@@ -1,15 +1,16 @@
 import React, { useEffect, useState } from "react";
-import { useParams, useNavigate } from "react-router";
-import { CreateBanner } from "./CreateBanner";
+import { useNavigate } from "react-router";
 
-export function EditBanner() {
+import { CreateSubcategory } from "./CreateSubcategory";
+
+export function EditSubCategory() {
   const navigate = useNavigate();
 
   return (
     <div>
-      <h2 className="text-xl font-bold mb-4">Edit Banner</h2>
+      <h2 className="text-xl font-bold mb-4">Edit sub Category</h2>
       {/* Reuse CreateBanner form but pass default values */}
-      <CreateBanner defaultValues={{}} />
+      <CreateSubcategory defaultValues={{}} />
       <button
         onClick={() => navigate("/bannerlist")}
         className="mt-4 px-4 py-2 bg-gray-300 rounded"
